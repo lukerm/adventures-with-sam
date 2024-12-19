@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     # Clear any previous Hydra state and initialize with relative config path
     hydra.core.global_hydra.GlobalHydra.instance().clear()
-    hydra.initialize(config_path="sam2", job_name="run_sam2", version_base="1.1")
+    hydra.initialize(config_path="sam_configs", job_name="run_sam2", version_base="1.1")
 
     sam2_model = build_sam2(
         model_config_fname,
