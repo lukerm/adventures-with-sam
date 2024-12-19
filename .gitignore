@@ -1,0 +1,7 @@
+*.jpg
+*.png
+*.pth
+*.pt
+
+**/data/**
+**/checkpoints/**
